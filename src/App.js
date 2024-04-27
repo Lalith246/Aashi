@@ -28,7 +28,12 @@ function App() {
           <source src={sample} type='video/mp4' />
         </video>
         <div className='home-content-2'>
-          <img src={sample3} alt='no img' srcset='' width={800} height={1000} />
+          <img src={sample3} alt='no img' srcset='' width={650} height={650} />
+        </div>
+        <div className='home-content-3'>
+          <a href='#middle-page-2'>
+            <img id='heart' src={sample2} alt='no image' width={'100px'} />
+          </a>
         </div>
       </section>
 
@@ -39,6 +44,11 @@ function App() {
         <div className='home-content-2'>
           <img src={sample5} alt='no img' srcset='' width={650} height={650} />
         </div>
+        <div className='home-content-3'>
+          <a href='#last-page'>
+            <img id='heart' src={sample2} alt='no image' width={'100px'} />
+          </a>
+        </div>
       </section>
 
       <section id='last-page'>
@@ -46,43 +56,28 @@ function App() {
           <source src={sample} type='video/mp4' />
         </video>
         <div className='home-content-2'>
-          <img src={sample4} alt='no img' srcset='' width={600} height={600} />
+          <img
+            id='heart'
+            src={sample4}
+            alt='no img'
+            srcset=''
+            width={600}
+            height={600}
+          />
+        </div>
+        <div className='home-content-3'>
+          <a href='#last-page-2'>
+            <img id='heart' src={sample2} alt='no image' width={'100px'} />
+          </a>
         </div>
       </section>
 
-      <section>
+      <section id='last-page-2'>
         <video autoPlay muted loop>
           <source src={sample} type='video/mp4' />
         </video>
         <div className='home-content'>
           <h1 className='glow'>I will love you forever and forever</h1>
-        </div>
-        <div className='lalith'>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <h1>Yours Lalith</h1>
         </div>
       </section>
     </>

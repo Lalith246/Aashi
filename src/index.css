@@ -80,7 +80,7 @@ section {
 .home-content img {
   position: absolute;
   margin-top: 10px;
-  margin-left: 100%;
+  margin-left: 90%;
   cursor: pointer;
 }
 
@@ -96,7 +96,7 @@ section {
 .home-content-3 a {
   position: absolute;
   margin-top: 200px;
-  left: 100px;
+  left: 50px;
   cursor: pointer;
 }
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Aashi/static/css/main.ff83315a.css",
-    "main.js": "/Aashi/static/js/main.f7c8a2cd.js",
+    "main.css": "/Aashi/static/css/main.ac3cad47.css",
+    "main.js": "/Aashi/static/js/main.a57e99b6.js",
     "static/js/453.50137e46.chunk.js": "/Aashi/static/js/453.50137e46.chunk.js",
     "static/media/hearts.mp4": "/Aashi/static/media/hearts.c2eddbcbe00853d35823.mp4",
     "static/media/heart.jpg": "/Aashi/static/media/heart.1880a8da29f8ddc1e1df.jpg",
@@ -9,17 +9,18 @@
     "static/media/heart.png": "/Aashi/static/media/heart.68a292a09dbd97a90d62.png",
     "static/media/second.jpg": "/Aashi/static/media/second.5a61130a43fdeda318a9.jpg",
     "static/media/third.jpg": "/Aashi/static/media/third.9805c223daaa80ba1002.jpg",
+    "static/media/second.png": "/Aashi/static/media/second.ddf10612e513a25af1d9.png",
     "static/media/first.jpg": "/Aashi/static/media/first.cb4c11fc61d699a1d24e.jpg",
     "static/media/fourth.jpg": "/Aashi/static/media/fourth.a2c8d84769fcc3026842.jpg",
     "static/media/images.png": "/Aashi/static/media/images.56eda2850141f633b67c.png",
     "static/media/logo.svg": "/Aashi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Aashi/index.html",
-    "main.ff83315a.css.map": "/Aashi/static/css/main.ff83315a.css.map",
-    "main.f7c8a2cd.js.map": "/Aashi/static/js/main.f7c8a2cd.js.map",
+    "main.ac3cad47.css.map": "/Aashi/static/css/main.ac3cad47.css.map",
+    "main.a57e99b6.js.map": "/Aashi/static/js/main.a57e99b6.js.map",
     "453.50137e46.chunk.js.map": "/Aashi/static/js/453.50137e46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff83315a.css",
-    "static/js/main.f7c8a2cd.js"
+    "static/css/main.ac3cad47.css",
+    "static/js/main.a57e99b6.js"
   ]
 }

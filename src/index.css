@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,114 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#main-title {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+section {
+  position: relative;
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.ours img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home-content {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  color: #fff;
+  z-index: 3;
+}
+
+.home-content-2 {
+  /* width: 600px; */
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  color: #fff;
+  z-index: 3;
+  opacity: 0.7;
+}
+
+.home-content h1 {
+  margin: 0;
+  font-size: 150px;
+  font-family: 'Sacramento', cursive;
+  transform: rotate(335deg);
+  text-align: center;
+}
+
+.home-content img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 100%;
+  cursor: pointer;
+}
+
+.lalith {
+  width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  top: 20px;
+  color: #fff;
+  z-index: 3;
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 85%;
+}
+
+.lalith h1 {
+  color: red;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#middle-page {
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red,
+      0 0 50px red, 0 0 60px red, 0 0 70px red;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #522323, 0 0 40px #522323,
+      0 0 50px #522323, 0 0 60px #522323, 0 0 70px #522323, 0 0 80px #522323;
+  }
 }
